@@ -1,0 +1,17 @@
+env: prod
+logLevel: info
+baseUrl: https://api.forecast.solar/estimate/
+jobCron: "@hourly"
+locations:
+  - id:
+    latitude:
+    longitude:
+    declination:
+    azimuth:
+    maxPeakPowerKw:
+db:
+  host:
+  port:
+  user:
+  password:
+  database:
